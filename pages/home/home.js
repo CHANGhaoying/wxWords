@@ -68,7 +68,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(getApp().globalData.userInfo)
+    //console.log(getApp().globalData.userInfo)
+    // wx.navigateTo({
+    //   url: "../index/index"
+    // })
+    
   },
 
   /**
@@ -79,7 +83,7 @@ Page({
       withCredentials: true,
       lang: '',
       success: function(res) {
-        console.log(res)
+        //console.log(res)
       },
       fail: function(res) {},
       complete: function(res) {},
@@ -90,7 +94,11 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    // setTimeout(function () {
+    //   wx.navigateTo({
+    //     url: "../index/index"
+    //   })
+    // }, 2000);
   },
 
   /**
