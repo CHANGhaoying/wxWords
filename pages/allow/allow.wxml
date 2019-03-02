@@ -1,0 +1,35 @@
+<!--pages/allow/allow.wxml-->
+<view class="box">
+  <image src="https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTL7cOHiaxJBPvTMo8YqZ7kJtr8HGRSttCibH5kmPib5T8fMg7IIgB2zA0zZiahg4K53wfpOhibtTdDaricA/132"
+  bindtap="login" class="log"></image>
+  <view class="txt">授权后，小猿姐姐就能陪伴你高效背单词了~</view>
+  <button type="primary" class="allow-btn">授权</button>
+  
+</view>
+
+<!-- 半透明遮罩 -->
+<view class='cover'>
+  <!-- 申请获取信息弹框 -->
+  <view class="pop-out">
+    <view class='top'>
+      <image src="https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTL7cOHiaxJBPvTMo8YqZ7kJtr8HGRSttCibH5kmPib5T8fMg7IIgB2zA0zZiahg4K53wfpOhibtTdDaricA/132"></image>
+      <text class=''>小猿背单词</text>
+      <text>申请</text>
+    </view>
+    <view class="get">获取你的昵称、头像、地区及性别</view>
+    <view class='user'>
+      <image src="https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTL7cOHiaxJBPvTMo8YqZ7kJtr8HGRSttCibH5kmPib5T8fMg7IIgB2zA0zZiahg4K53wfpOhibtTdDaricA/132"></image>
+
+      <view class='nickname'>
+        <view>微信个人信息</view>
+        <text>迈步云端</text>
+      </view>
+      <icon type="success_no_circle" size='20'></icon>
+    </view>
+    <view class='foot'>
+      <button class='btn'>取消</button>
+      <button class='btn' type="primary">允许</button>
+    </view>
+    
+  </view>
+</view>
