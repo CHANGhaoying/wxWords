@@ -55,6 +55,25 @@
     
     circular
     >
+
+      <swiper-item>
+        <view>我的学习记录</view>
+        <view>
+          <text>《</text>
+          <text>2019 年 2 月</text>
+          <text>》</text>
+        </view>
+        <view>
+          <text>日</text>
+          <text>一</text>
+          <text>二</text>
+          <text>三</text>
+          <text>四</text>
+          <text>五</text>
+          <text>六</text>
+        </view>
+      </swiper-item>
+
       <swiper-item class='left-item'>
         <view class='dk-title'>海淀英语班单词打卡</view>
         <view class='dk-num'>65</view>
@@ -74,7 +93,7 @@
           </view>
         </view>
       </swiper-item>
-      <swiper-item>世界</swiper-item>
+      
     </swiper>
   </view>
 

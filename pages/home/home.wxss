@@ -51,7 +51,6 @@ page{
 }
 .top{
   display: flex;
-  
 }
 .top text{
   margin-left: 26rpx;
@@ -113,12 +112,12 @@ page{
 .foot button:last-child{
   background: #07c160;
 }
-/* 授权部分 end */
+/* 授权部分↑ */
 
-/* 主题页面部分 */
+/* 主题页面部分↓ */
 
-.bg{
-  height: 460rpx;
+.bg{   
+  height: 460rpx;  
   background: #3252f5;
   padding: 40rpx 78rpx 0;
   box-sizing: border-box;
@@ -147,26 +146,59 @@ page{
   height: 36rpx;
   margin-left: 20rpx;
 }
-/* 中间卡片部分 样式 ↓ */
+/* 中间卡片部分 ↓ */
 .card{
   box-sizing: border-box;
   height: 592rpx;
   width: 684rpx;
-  padding: 40rpx;
+  padding: 40rpx 40rpx 20rpx;
   background: #fff;
   margin: -248rpx auto 0;
   border-radius: 26rpx;
   box-shadow: 0 0 10px #999;
 }
-
+/* 主页中间卡片部分 ↓ */
 .card swiper{
-  border:1px solid red;
+  /* border:1px solid red; */
   height: 100%;
 }
-
 .left-item view{
   text-align: center;
 }
+.dk-title{
+  margin: 20rpx 0 30rpx;
+  font-size: 40rpx;
+  color: #242424;
+}
+.dk-num{
+  font-size: 90rpx;
+  color: #353535;
+}
+.dk-txt{
+  font-size: 30rpx;
+  color: #626262;
+}
+.dk-section{
+  border-top: 8rpx solid #f9f8f8;
+  display: flex;
+  margin-top: 30rpx;
+  padding-top: 30rpx;
+  justify-content: space-around;
+}
+.dk-section text{
+  display: block;
+}
+.dk-section text:first-child{
+  font-size: 48rpx;
+  color: #353535;
+  margin-bottom: 22rpx;
+}
+.dk-section text:last-child{
+  font-size: 24rpx;
+  color: #626262;
+}
+/* 主页中间卡片部分 ↑ */
+
 .to-study{
   margin: 38rpx auto 92rpx;
   background: #ffd556;
