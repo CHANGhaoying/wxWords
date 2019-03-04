@@ -1,0 +1,33 @@
+<!--pages/xkWords/xkWords.wxml-->
+<view class='xk-words'>
+  <view class='banner'>
+   <image src='../../img/xk1.png'></image>
+   <view>小咖词汇共5组，1550个单词</view>
+   <view>您已练习3组，共155个单词</view>
+  </view>
+
+  <view class='section'>
+    <view>
+      <text>第一组单词</text>
+      <view class='rate'>
+        <p><span style='width: {{x}};'></span></p>
+        <text>30/50</text>
+      </view>
+    </view>
+
+    <view>
+      <text>第一组单词</text>
+      <view class='rate'>
+        <p><span></span></p>
+        <text>30/50</text>
+      </view>
+    </view>
+
+     <view class='foot'>
+      <button>开始练习</button>
+      <button>错题本</button>
+    </view>
+
+  </view>
+ 
+</view>

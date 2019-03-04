@@ -36,7 +36,7 @@
 
 </block>
 
-<view>
+<block>
   <view class='bg'>
     <view>
       <image src='../../img/123.jpg'></image>
@@ -113,4 +113,4 @@
       <text>单词本</text>
     </view>
   </view>
-</view>
+</block>

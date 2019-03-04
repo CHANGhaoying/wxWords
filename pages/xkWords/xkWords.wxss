@@ -1,0 +1,74 @@
+/* pages/xkWords/xkWords.wxss */
+/* .xk-words{
+  background:#f8f6f6;
+} */
+.banner image{
+  width: 307rpx;
+  height: 248rpx;
+  display: block;
+  margin: 38rpx auto 44rpx;
+}
+.banner{
+  text-align: center;
+  /* background: #fff; */
+}
+.banner view:nth-child(2){
+  font-size: 36rpx;
+  color: #242424;
+}
+.banner view:last-child{
+  font-size: 28rpx;
+  color: #9d9d9d;
+  margin: 24rpx 0 54rpx;
+}
+.section{
+  padding-top: 44rpx;
+  background: #f8f6f6;
+}
+.section>view{
+  padding-left: 72rpx; 
+}
+.section text{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: #242424;
+  line-height: 54rpx;
+}
+.rate{
+  height: 54rpx;
+  display: flex;
+  margin: 18rpx 0 60rpx 0;
+}
+.rate p{
+  display: block;
+  width: 510rpx;
+  height: 100%;
+  border: 1rpx solid #e4e4e4;
+  border-radius: 28rpx;
+  background: #fff;
+}
+.rate p span{
+  display: block;
+  
+  height: 100%;
+  background: #ffd565;
+  border-radius: 28rpx;
+}
+.section .foot{
+  padding: 58rpx 0 104rpx;
+  display: flex;
+}
+.foot button{
+  width: 289rpx;
+  height: 90rpx;
+  background: #4bb163;
+  color: #fff;
+  border-radius: 45rpx;
+  font-size: 36rpx;
+}
+.foot button:last-child{
+  background: #f66c6c;
+}
+.foot button::after{
+  border: none;
+}

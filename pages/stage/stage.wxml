@@ -1,0 +1,86 @@
+<!--pages/stage/stage.wxml-->
+<view class='stage'>
+  <view class='nav'>
+    <view><button>词汇阶段</button></view>
+    <view><button>词组阶段</button></view>
+    <view><button>长难句分析</button></view>
+    <view><button>真题词汇</button></view>
+  </view>
+
+  <view class='section'>
+    <!-- 词汇阶段 -->
+    <view class='cihui'>
+      <h1>词汇阶段</h1>
+      <view>
+        <image src='../../img/xk2.png'></image>
+        <view>
+          <h2>小咖词汇</h2>
+          <p>考研词汇初级练习，通关将获得小咖勋章哦</p>
+          <p>
+            <text>30组</text>
+            <text>共1550个单词</text>
+            <text>已练习20个</text>
+          </p>
+          <!-- 右上角黄色标签 -->
+          <view class='lable'>
+            <view>小咖</view>
+            <view>勋章</view>
+            <span class='top'></span>
+            <span class='left'></span>
+            <span class='right'></span>
+          </view>
+        </view>
+      </view>
+      <view>
+        <image src='../../img/xk2.png'></image>
+        <view>
+          <h2>大咖词汇</h2>
+          <p>考研词汇初级练习，通关将获得大咖勋章哦</p>
+          <p>
+            <text>5组</text>
+            <text>共300个单词</text>
+            <text>已练习20个</text>
+          </p>
+        </view>
+        <!-- 右上角黄色标签 -->
+        <view class='lable'>
+          <view>大咖</view>
+          <view>勋章</view>
+          <span class='top'></span>
+          <span class='left'></span>
+          <span class='right'></span>
+        </view>
+
+      </view>
+
+    </view>
+    <!-- 词组阶段 -->
+    <view class='cizu'>
+      <h1>词组阶段</h1>
+      <view>
+        <image src='../../img/xk2.png'></image>
+        <view>
+          <h2>核心词汇一</h2>
+          <p>考研词汇初级练习，通关将获得小咖勋章哦</p>
+          <p>
+            <text>30组</text>
+            <text>共300个单词</text>
+            <text>已练习20个</text>
+          </p>
+        </view>
+        <!-- 右上角黄色标签 -->
+        <view class='lable'>
+          <view>小咖</view>
+          <view>段位</view>
+          <span class='top'></span>
+          <span class='left'></span>
+          <span class='right'></span>
+        </view>
+
+      </view>
+
+    </view>
+  
+  </view>
+
+</view>
