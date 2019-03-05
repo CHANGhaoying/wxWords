@@ -1,5 +1,22 @@
 <!--pages/result/result.wxml-->
 <view class='result'>
-  
+  <view class='card'>
+    <h1>小咖第一组单词</h1>
+    <view class='img'>
+      <image src='../../img/123.jpg'></image>
+      <view class='name'>七十二变</view>
+      <view class='num'>坚持学习15天</view>
+    </view>
 
+    <view class='percent'>
+      <view>正确率<text  class='t-left'>65%</text></view>
+      <view>超过了全班<text>5%</text></view>
+    </view>
+
+    <button>重新来过</button>
+  </view>
+  <view class='btn-box'>
+    <button>下一组单词</button>
+    <button>分享战绩</button>
+  </view>
 </view>

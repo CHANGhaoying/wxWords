@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/remember/remember",
+    "pages/index/index",
     "pages/result/result",
+    "pages/home/home",
     "pages/xkWords/xkWords",
     "pages/stage/stage",
-    "pages/home/home",
     "pages/aa/aa",
-    "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {

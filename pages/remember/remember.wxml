@@ -1,0 +1,36 @@
+<!--pages/remember/remember.wxml-->
+<view class='remember'>
+  <view class='rate'>
+    <text>本组单词</text>
+    <text>4/10</text>
+    <p><span></span></p>
+    <text>10%</text>
+  </view>
+
+  <view class='card'>
+    <icon>icon</icon>
+    <text>Mathematics</text>
+    <view>['kaensl] <icon>icon</icon></view>
+  </view>
+
+  <view class='btns'>
+    <view>
+      <button class='yes'>数学 </button>
+      <image src='../../img/yes.png'></image>
+    </view>
+    <view>
+      <button class='no'>多媒体</button>
+      <image src='../../img/no.png'></image>
+    </view>
+    <view>
+      <button>政治</button>
+    </view>
+    <view>
+      <button>思想、掉下线</button>
+    </view>
+    
+    
+    
+    
+  </view>
+</view>
