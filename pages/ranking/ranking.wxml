@@ -1,0 +1,73 @@
+<!--pages/ranking/ranking.wxml-->
+<view class='ranking'>
+  <view class='nav'>
+    <li class='active'>今日榜单<i></i></li>
+    <li>历史榜单<i></i></li>
+  </view>
+  <view class='olist'>
+    <view class='item {{true && "first"}}'>
+      <view class='num'>1</view>
+      <view  class="{{true && 'crown-box'}}">
+        <image class='crown' src='../../img/crown1.png'></image>
+        <image src='../../img/123.jpg'></image>
+      </view>
+      <view>
+        <view class='nickname'>37度的温柔</view>
+        <text>掌握单词：200</text>
+      </view>
+      <view class='days'>坚持：10天</view>
+    </view>
+    <view class='item'>
+      <view class='num'>2</view>
+      <view  class="{{true && 'crown-box'}}">
+        <image class='crown' src='../../img/crown2.png'></image>
+        <image src='../../img/123.jpg'></image>
+      </view>
+      <view>
+        <view class='nickname'>37度的温柔</view>
+        <text>掌握单词：200</text>
+      </view>
+      <view class='days'>坚持：10天</view>
+    </view>
+    <view class='item'>
+      <view class='num'>3</view>
+      <view class="{{true && 'crown-box'}}">
+        <image class='crown' src='../../img/crown3.png'></image>
+        <image src='../../img/123.jpg'></image>
+      </view>
+      <view>
+        <view class='nickname'>37度的温柔</view>
+        <text>掌握单词：200</text>
+      </view>
+      <view class='days'>坚持：10天</view>
+    </view>
+    <view class='item'>
+      <view class='num'>4</view>
+      <view class="{{true && 'crown-box'}}">
+        <!-- <image class='crown' src='../../img/crown3.png'></image> -->
+        <image src='../../img/123.jpg'></image>
+      </view>
+      <view>
+        <view class='nickname'>37度的温柔</view>
+        <text>掌握单词：200</text>
+      </view>
+      <view class='days'>坚持：10天</view>
+    </view>
+    <view class='item'>
+      <view class='num'>4</view>
+      <view class="{{true && 'crown-box'}}">
+        <!-- <image class='crown' src='../../img/crown3.png'></image> -->
+        <image src='../../img/123.jpg'></image>
+      </view>
+      <view>
+        <view class='nickname'>37度的温柔</view>
+        <text>掌握单词：200</text>
+      </view>
+      <view class='days'>坚持：10天</view>
+    </view>
+  </view>
+
+  <view class='self'>
+    
+  </view>
+</view>

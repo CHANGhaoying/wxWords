@@ -33,6 +33,33 @@
   margin: 60rpx auto;
   border-radius: 18rpx;
   box-shadow: 0 0 35rpx #ddd;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 110rpx;
+  position: relative;
+}
+.word{
+  font-size: 40rpx;
+  color: #303030;
+}
+.soundmark{
+  margin-top: 30rpx;
+  color: #999;
+  font-size: 34rpx;
+}
+.card>image,
+.example image{
+  position: absolute;
+  right: 60rpx;
+  top: 60rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.soundmark image{
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  margin-left: 26rpx;
 }
 .btns>view{
   width: 520rpx;
@@ -53,13 +80,13 @@
   border: none;
 }
 
-.btns .yes{
+.btns .yes,.btns .no{
   background: #4bb163;
   color: #fff;
+  border: none;
 }
 .btns .no{
   background: #f66c6c;
-  color: #fff;
 }
 
 .btns image{
@@ -69,4 +96,67 @@
   right: 30rpx;
   top: 50%;
   margin-top: -18rpx;
+}
+
+.word-show{
+  width: 650rpx;
+  border-radius: 22rpx;
+  box-shadow: 0 0 30rpx #ddd;
+  margin: 40rpx auto 0;
+  box-sizing: border-box;
+  padding: 50rpx 20rpx 60rpx;
+}
+ 
+.word-show .soundmark image,
+.example image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.word-show .soundmark{
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+.meaning{
+  margin: 60rpx 15rpx 0;
+  border-bottom: 6rpx solid #f0f0f0;
+  padding: 0 0 30rpx 15rpx;
+}
+.meaning p,
+.example p{
+  display: block;
+  font-size: 24rpx;
+  color:#707070;
+  margin: 15rpx 0;
+}
+.example{
+  margin: 45rpx 25rpx 0;
+}
+.example h1{
+  font-size: 36rpx;
+  color: #303030;
+}
+.example>view{
+  position: relative;
+  padding: 0 55rpx 20rpx 0;
+}
+.example image{
+  top: 5rpx;
+  right: 5rpx; 
+}
+.example p{
+  margin: 20rpx 0 0;
+}
+
+.next{
+  width:510rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #303030;
+  font-size: 32rpx; 
+  border-radius: 40rpx;
+  background: #ffd656;
+  margin: 60rpx auto;
+}
+.next::after{
+  border: none;
 }

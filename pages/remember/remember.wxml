@@ -6,11 +6,15 @@
     <p><span></span></p>
     <text>10%</text>
   </view>
-
+  <block wx:if='aa'>
   <view class='card'>
-    <icon>icon</icon>
-    <text>Mathematics</text>
-    <view>['kaensl] <icon>icon</icon></view>
+    <image src='../../img/no.png'></image>
+    <text class='word'>Mathematics</text>
+    <view class='soundmark'>
+      <text>['kaensl]</text>
+      <image src='../../img/yes.png'></image>
+    </view>
+    
   </view>
 
   <view class='btns'>
@@ -28,9 +32,37 @@
     <view>
       <button>思想、掉下线</button>
     </view>
-    
-    
-    
-    
   </view>
+  </block>
+  <block wx:else>
+    <view class='word-show'>
+      <view>
+        <text class='word'>Mathematics</text>
+        <view class='soundmark'>
+          <text>[ges]</text>
+          <image src='../../img/yes.png'></image>
+        </view>
+
+        <view class='meaning'>
+          <p>vt. 推测；猜测</p>
+          <p>vt. 推测；猜测</p>
+          <!-- <p>vt. 推测；猜测</p> -->
+        </view>
+      </view>
+      <view class='example'>
+        <h1>例句：</h1>
+        <view>
+          <p>1、He cdmvjkkjkjniniuniuhui hiuhi huiuhui</p>
+          <p>他涛涛涛涛涛涛涛涛涛涛涛天天他吞吞吐吐。</p>
+          <image src='../../img/yes.png'></image>
+        </view>
+        <view>
+          <p>1、He cdmvjkkjkjniniuniuhui hiuhi huiuhui</p>
+          <p>他涛涛涛涛涛涛涛涛涛涛涛天天他吞吞吐吐。酷酷酷酷酷酷</p>
+          <image src='../../img/yes.png'></image>
+        </view>
+      </view>
+    </view>
+    <button class='next'>下一个</button>
+  </block>
 </view>

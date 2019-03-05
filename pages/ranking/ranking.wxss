@@ -1,0 +1,70 @@
+/* pages/ranking/ranking.wxss */
+.nav{
+  padding: 50rpx 55rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.nav li{
+  font-size: 38rpx;
+  color: #858585;
+  position: relative;
+}
+.nav li.active{
+  color: #323232;
+}
+.nav li.active i{
+  width: 60%;
+  height: 100%;
+  border-bottom: 5rpx solid #ffd656;
+  position: absolute;
+  top: 8rpx;
+  left: 50%;
+  margin-left: -30%;
+}
+.item{
+  border-top: 1rpx solid #ddd;
+  display: flex;
+  align-items: center;
+  margin: 0 40rpx; 
+  position: relative;
+  padding: 50rpx 0 30rpx;
+}
+.first{
+  border: none;
+}
+.item image{border: 1px solid;
+  width: 84rpx;
+  height: 84rpx;
+  border-radius: 50%;
+}
+.item>view{
+  /* border: 1px solid red; */
+  margin: 0 20rpx;
+  color: #626262;
+  font-size: 22rpx;
+}
+.item .num{
+  font-size: 30rpx;
+  color: #3e3e3e;
+}
+.item .nickname{
+  color: #2b2b2b;
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+.item .days{
+  position: absolute;
+  right: 40rpx;
+  bottom: 38rpx;
+}
+.crown-box{
+  position: relative;
+}
+.item .crown{
+  width: 104rpx;
+  height: 104rpx;
+  position: absolute;
+  border: 0;
+  left: -35rpx;
+  top: -35rpx;
+}
